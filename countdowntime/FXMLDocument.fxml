@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane fx:controller="countdowntime.FXMLDocumentController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="533.0" prefWidth="1055.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="snt1" layoutX="20.0" layoutY="296.0" mnemonicParsing="false" onAction="#startSNT" prefHeight="70.0" prefWidth="150.0" text="start find Prime" />
+      <TextArea fx:id="snt3" layoutX="77.0" layoutY="33.0" prefHeight="200.0" prefWidth="271.0" />
+      <TextArea fx:id="cd3" layoutX="516.0" layoutY="33.0" prefHeight="200.0" prefWidth="311.0" />
+      <Button fx:id="snt2" layoutX="213.0" layoutY="296.0" mnemonicParsing="false" onAction="#stopSNT" prefHeight="70.0" prefWidth="150.0" text="stop" />
+      <Text layoutX="112.0" layoutY="262.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Prime Number" textAlignment="CENTER" wrappingWidth="185.6708984375" />
+      <Button fx:id="cd2" layoutX="699.0" layoutY="296.0" mnemonicParsing="false" onAction="#stopCD" prefHeight="70.0" prefWidth="150.0" text="stop" />
+      <Button fx:id="cd1" layoutX="501.0" layoutY="296.0" mnemonicParsing="false" onAction="#startCD" prefHeight="70.0" prefWidth="150.0" text="start Count down" />
+      <Text layoutX="579.0" layoutY="262.0" strokeType="OUTSIDE" strokeWidth="0.0" text="count down" textAlignment="CENTER" wrappingWidth="185.6708984375" />
+   </children>
+</Pane>
